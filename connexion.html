@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="connexion.css">
+   
+    <title>Authentification</title>
+    
+  </head>
+  
+  <body>
+<form name = "Form" method = "POST" action = "connexion.php">
+  <div class="container">
+   <table BORDER WIDTH="500" HEIGHT="190">
+     <td>
+    <h1 >veillez entrer vos Identifiant</h1>
+    <form name="RegForm" action="/submit.php" onsubmit="return W3docs()" method="post" class="w3docs">
+      <div>
+        <label for="Login">Login:</label>
+      <input type="text" id="Identifiant" size="20" name="Login" />
+      </div>
+      <br />
+      <div>
+        <label for="Pwd"> Pwd:</label>
+        <input type="text" id="Pwd" size="20" name="Pwd" />
+      </div><br>
+
+      <input type="submit" name="Submit" value="Valider" onclick="W3docs()"/>
+    </div>
+
+     
+     
+    </form>
+  </td>
+    <table>
+</body>
+
+</html>

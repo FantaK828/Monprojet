@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+label{
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+
+}
+body{
+    width: 50%;
+    font-family: Arial;
+    margin: 5px auto;
+    padding: 20px;
+    background-image:  url("ins.jpg");
+    color: bisque;
+}
+fieldset{
+    border-radius: 7px;
+    color: black;
+}
+legend{
+    font-size: 1.4cm;
+    margin-bottom: 10px;
+}
+
+input[type="text"],input[type="number"],input[type="email"]
+{
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    background-color: bisque;
+    margin: 10px;
+
+}
+input[type="submit"]
+{
+    position: relative;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid bisque;
+    border-radius: 2px;
+    margin: 10px;
+    width: 50%;
+}
+ul{
+    list-style-type: none;
+    padding: 20px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: bisque;
+
+}
+
+li{
+    display: inline;
+    padding: 30px;
+}
+.container {
+
+    width: 500px;
+  
+    height: 290px;
+  
+  /*  Pour centrer le contenu d'un bloc  on utilise la prop text-align  */
+  
+    text-align: justify;
+  
+  /*  Pour centrer un bloc on doit d'abord préciser le width et utiliser ensuite la prop margin  */
+  
+    margin : auto;
+  
+    background-color: #201810;
+  
+    margin-top: 100px;
+  
+    border-radius: 5px;
+  
+    opacity: 0.7;
+  
+  }
